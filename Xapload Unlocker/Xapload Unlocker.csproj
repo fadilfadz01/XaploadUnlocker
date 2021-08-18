@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Xapload_Unlocker</RootNamespace>
+    <ApplicationIcon>Xapload Unlocker.ico</ApplicationIcon>
+    <Win32Resource />
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <SignAssembly>false</SignAssembly>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <Authors>Fadil Fadz</Authors>
+    <Description>A tool to unlock apps sideloading on Windows Phone having unlocked bootloader.</Description>
+    <Copyright>Copyright© 2021</Copyright>
+    <AssemblyVersion>1.1.4.0</AssemblyVersion>
+    <FileVersion>1.1.4.0</FileVersion>
+    <Version>1.1.4.0</Version>
+    <PackageIcon>Xapload Unlocker.ico</PackageIcon>
+    <PackageIconUrl />
+    <RepositoryType>Github</RepositoryType>
+    <RepositoryUrl>https://github.com/fadilfadz01/XaploadUnlocker</RepositoryUrl>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile></DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="ProcessPrivileges">
+      <HintPath>ProcessPrivileges.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
