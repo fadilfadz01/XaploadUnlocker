@@ -1,0 +1,4 @@
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\AppModelUnlock]
+"AllowAllTrustedApps"=dword:00000001
+"AllowDevelopmentWithoutDevLicense"=dword:00000001
